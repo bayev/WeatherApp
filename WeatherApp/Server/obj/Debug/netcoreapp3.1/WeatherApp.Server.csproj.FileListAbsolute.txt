@@ -1,0 +1,5 @@
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Server\obj\Debug\netcoreapp3.1\WeatherApp.Server.csprojAssemblyReference.cache
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Server\obj\Debug\netcoreapp3.1\WeatherApp.Server.AssemblyInfoInputs.cache
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Server\obj\Debug\netcoreapp3.1\WeatherApp.Server.AssemblyInfo.cs
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Server\obj\Debug\netcoreapp3.1\WeatherApp.Server.RazorAssemblyInfo.cache
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Server\obj\Debug\netcoreapp3.1\WeatherApp.Server.RazorAssemblyInfo.cs
