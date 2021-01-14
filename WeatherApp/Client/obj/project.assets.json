@@ -1653,19 +1653,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Azama\\.nuget\\packages\\": {}
+    "C:\\Users\\bayev\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj",
+      "projectUniqueName": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj",
       "projectName": "WeatherApp.Client",
-      "projectPath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj",
-      "packagesPath": "C:\\Users\\Azama\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Client\\obj\\",
+      "projectPath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj",
+      "packagesPath": "C:\\Users\\bayev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Azama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bayev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1679,8 +1679,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj": {
-              "projectPath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj"
+            "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj"
             }
           }
         }

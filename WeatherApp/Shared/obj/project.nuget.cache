@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ouqgwVW1kIQvrafFQRLFCP7qqnIhFmpWiczcSl7uGwSI6C34uIGVQ629NzGSveNhOmxjy2aMpsSkcW0wlXKJbg==",
+  "dgSpecHash": "xVUsmBAUwgbF60nTyoUVNZXZCLnThNNZb+i171Zq1WdwcW8xGZrGxu+X5++HPxLWL1F6MCQ1kac17k35pbLWPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj",
+  "projectFilePath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
