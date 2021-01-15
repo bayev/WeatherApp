@@ -87,7 +87,7 @@ using WeatherApp.Shared.Models;
         {
             __builder.AddMarkupContent(0, "<h3>Developers</h3>\r\n");
             __builder.AddMarkupContent(1, "<small>Add as many developers as you wish.</small>\r\n");
-            __builder.AddMarkupContent(2, "<div class=\"form-group\"><a class=\"btn btn-success\" href=\"developer/create\"><i class=\"oi oi-plus\"></i> Create New</a></div>\r\n<br>");
+            __builder.AddMarkupContent(2, "<div class=\"form-group\">\r\n    <a class=\"btn btn-success\" href=\"developer/create\"><i class=\"oi oi-plus\"></i> Create New</a>\r\n</div>\r\n<br>\r\n\r\n");
 #nullable restore
 #line 12 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\FetchData.razor"
  if (developers == null)
@@ -120,10 +120,23 @@ else
 #line default
 #line hidden
 #nullable disable
-            __builder.OpenElement(5, "table");
-            __builder.AddAttribute(6, "class", "table table-striped");
-            __builder.AddMarkupContent(7, "<thead><tr><th>Id</th>\r\n                <th>First Name</th>\r\n                <th>Last Name</th>\r\n                <th>Email</th>\r\n                <th>Experience (Years)</th>\r\n                <th></th></tr></thead>\r\n        ");
-            __builder.OpenElement(8, "tbody");
+            __builder.AddContent(5, "    ");
+            __builder.OpenElement(6, "table");
+            __builder.AddAttribute(7, "class", "table table-striped");
+            __builder.AddMarkupContent(8, "\r\n        ");
+            __builder.AddMarkupContent(9, @"<thead>
+            <tr>
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Experience (Years)</th>
+                <th></th>
+            </tr>
+        </thead>
+        ");
+            __builder.OpenElement(10, "tbody");
+            __builder.AddMarkupContent(11, "\r\n");
 #nullable restore
 #line 34 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\FetchData.razor"
              foreach (Developer dev in developers)
@@ -132,9 +145,11 @@ else
 #line default
 #line hidden
 #nullable disable
-            __builder.OpenElement(9, "tr");
-            __builder.OpenElement(10, "td");
-            __builder.AddContent(11, 
+            __builder.AddContent(12, "                ");
+            __builder.OpenElement(13, "tr");
+            __builder.AddMarkupContent(14, "\r\n                    ");
+            __builder.OpenElement(15, "td");
+            __builder.AddContent(16, 
 #nullable restore
 #line 37 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\FetchData.razor"
                          dev.Id
@@ -144,9 +159,9 @@ else
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(12, "\r\n                    ");
-            __builder.OpenElement(13, "td");
-            __builder.AddContent(14, 
+            __builder.AddMarkupContent(17, "\r\n                    ");
+            __builder.OpenElement(18, "td");
+            __builder.AddContent(19, 
 #nullable restore
 #line 38 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\FetchData.razor"
                          dev.FirstName
@@ -156,9 +171,9 @@ else
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(15, "\r\n                    ");
-            __builder.OpenElement(16, "td");
-            __builder.AddContent(17, 
+            __builder.AddMarkupContent(20, "\r\n                    ");
+            __builder.OpenElement(21, "td");
+            __builder.AddContent(22, 
 #nullable restore
 #line 39 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\FetchData.razor"
                          dev.LastName
@@ -168,9 +183,9 @@ else
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(18, "\r\n                    ");
-            __builder.OpenElement(19, "td");
-            __builder.AddContent(20, 
+            __builder.AddMarkupContent(23, "\r\n                    ");
+            __builder.OpenElement(24, "td");
+            __builder.AddContent(25, 
 #nullable restore
 #line 40 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\FetchData.razor"
                          dev.Email
@@ -180,9 +195,9 @@ else
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(21, "\r\n                    ");
-            __builder.OpenElement(22, "td");
-            __builder.AddContent(23, 
+            __builder.AddMarkupContent(26, "\r\n                    ");
+            __builder.OpenElement(27, "td");
+            __builder.AddContent(28, 
 #nullable restore
 #line 41 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\FetchData.razor"
                          dev.Experience
@@ -192,11 +207,12 @@ else
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(24, "\r\n                    ");
-            __builder.OpenElement(25, "td");
-            __builder.OpenElement(26, "a");
-            __builder.AddAttribute(27, "class", "btn btn-success");
-            __builder.AddAttribute(28, "href", "developer/edit/" + (
+            __builder.AddMarkupContent(29, "\r\n                    ");
+            __builder.OpenElement(30, "td");
+            __builder.AddMarkupContent(31, "\r\n                        ");
+            __builder.OpenElement(32, "a");
+            __builder.AddAttribute(33, "class", "btn btn-success");
+            __builder.AddAttribute(34, "href", "developer/edit/" + (
 #nullable restore
 #line 43 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\FetchData.razor"
                                                                          dev.Id
@@ -205,12 +221,12 @@ else
 #line hidden
 #nullable disable
             ));
-            __builder.AddContent(29, "Edit");
+            __builder.AddContent(35, "Edit");
             __builder.CloseElement();
-            __builder.AddMarkupContent(30, "\r\n                        ");
-            __builder.OpenElement(31, "button");
-            __builder.AddAttribute(32, "class", "btn btn-danger");
-            __builder.AddAttribute(33, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+            __builder.AddMarkupContent(36, "\r\n                        ");
+            __builder.OpenElement(37, "button");
+            __builder.AddAttribute(38, "class", "btn btn-danger");
+            __builder.AddAttribute(39, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 44 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\FetchData.razor"
                                                                    () => Delete(dev.Id)
@@ -219,10 +235,13 @@ else
 #line hidden
 #nullable disable
             ));
-            __builder.AddContent(34, "Delete");
+            __builder.AddContent(40, "Delete");
             __builder.CloseElement();
+            __builder.AddMarkupContent(41, "\r\n                    ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(42, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(43, "\r\n");
 #nullable restore
 #line 47 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\FetchData.razor"
             }
@@ -230,8 +249,11 @@ else
 #line default
 #line hidden
 #nullable disable
+            __builder.AddMarkupContent(44, "\r\n        ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(45, "\r\n    ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(46, "\r\n");
 #nullable restore
 #line 51 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\FetchData.razor"
 }

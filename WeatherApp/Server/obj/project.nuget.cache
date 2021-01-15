@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KV9DphhwQiYlzWyGX2YaJzobUETDQRj9j1NJqt+8K7R+60OpvOEeEgeHM3OBuQZD6ZyJ/TkClzQ/ihE+y49S9Q==",
+  "dgSpecHash": "omRHQtEZPsvTUNyZ7EQUaxn+Ch/PvcY/394OYcSOOx6f+6GHJMqq7VWuy4eJRYWdAUwu1ncloT5hHWTbl7Vq2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Server\\WeatherApp.Server.csproj",
   "expectedPackageFiles": [

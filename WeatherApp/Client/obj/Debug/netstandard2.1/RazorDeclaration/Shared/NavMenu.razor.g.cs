@@ -90,7 +90,7 @@ using WeatherApp.Shared.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Shared\NavMenu.razor"
+#line 29 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

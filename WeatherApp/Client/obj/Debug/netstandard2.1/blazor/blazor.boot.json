@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "WeatherApp.Client.dll": "sha256-Z+jEuAmeK8BC8g5thM1jEgz8mOYPS\/0sgMFcUTBSHdw=",
+      "WeatherApp.Client.dll": "sha256-+JEja2NjI6z7v2NHHkhQubfV0JBhSTbuGTuu4AG7LbE=",
       "System.Text.Json.dll": "sha256-HQeN+ZfHAERO+uW0fP0J9J3WV1hQ3vUIOWbqGSYBPp8=",
       "System.Runtime.CompilerServices.Unsafe.dll": "sha256-kL\/omZDwqByAi+lPdMeDmr3XjHcn4RVb+LmZ4mut1Yc=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -45,7 +45,7 @@
       "Microsoft.AspNetCore.Components.dll": "sha256-PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=",
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=",
       "Microsoft.JSInterop.dll": "sha256-LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=",
-      "WeatherApp.Shared.dll": "sha256-ysvI\/2gQQnQV5SNtkT1445Kj0zyO01ze2apr4\/pvJuc=",
+      "WeatherApp.Shared.dll": "sha256-vSPFC8XmNYM+QexnwgQLo9NEInrzDDMPQ38UNz04KCc=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-FJ+rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=",
       "Microsoft.Extensions.DependencyInjection.dll": "sha256-oK1Bjv95fH+hSbogUkJE+xDAI203kJG6lL6Sm\/NuPWg=",
       "Microsoft.Extensions.Primitives.dll": "sha256-y\/FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK+gtKc=",
@@ -61,8 +61,8 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "WeatherApp.Client.pdb": "sha256-hhOLZkhHZWXHgvzFDY6Z87nfQ5lD54hNAMwSu6LwY9Q=",
-      "WeatherApp.Shared.pdb": "sha256-us634GEuj4i3aLHC4fxTSrvxSKxjT7\/kPMU\/2wyhWks="
+      "WeatherApp.Client.pdb": "sha256-66FKjK+hCaOE3e8ljx7K2M6VeG8ebck3XfZWMuWtGyU=",
+      "WeatherApp.Shared.pdb": "sha256-A\/rvOTKDlwpb+hyuTMqrGRGvgeF5rViHmQQuo8QZLtw="
     },
     "runtime": {
       "dotnet.3.2.0.js": "sha256-mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=",

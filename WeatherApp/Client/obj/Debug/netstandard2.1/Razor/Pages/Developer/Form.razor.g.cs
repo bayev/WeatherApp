@@ -104,15 +104,18 @@ using WeatherApp.Shared.Models;
 #nullable disable
             )));
             __builder.AddAttribute(3, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment<Microsoft.AspNetCore.Components.Forms.EditContext>)((context) => (__builder2) => {
-                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator>(4);
+                __builder2.AddMarkupContent(4, "\r\n    ");
+                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.DataAnnotationsValidator>(5);
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(5, "\r\n    ");
-                __builder2.OpenElement(6, "div");
-                __builder2.AddAttribute(7, "class", "form-group");
-                __builder2.AddMarkupContent(8, "<label>First Name :</label>\r\n        ");
-                __builder2.OpenElement(9, "div");
-                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(10);
-                __builder2.AddAttribute(11, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
+                __builder2.AddMarkupContent(6, "\r\n    ");
+                __builder2.OpenElement(7, "div");
+                __builder2.AddAttribute(8, "class", "form-group");
+                __builder2.AddMarkupContent(9, "\r\n        ");
+                __builder2.AddMarkupContent(10, "<label>First Name :</label>\r\n        ");
+                __builder2.OpenElement(11, "div");
+                __builder2.AddMarkupContent(12, "\r\n            ");
+                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(13);
+                __builder2.AddAttribute(14, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
 #nullable restore
 #line 6 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\Form.razor"
                                      dev.FirstName
@@ -121,11 +124,11 @@ using WeatherApp.Shared.Models;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(12, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => dev.FirstName = __value, dev.FirstName))));
-                __builder2.AddAttribute(13, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => dev.FirstName));
+                __builder2.AddAttribute(15, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => dev.FirstName = __value, dev.FirstName))));
+                __builder2.AddAttribute(16, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => dev.FirstName));
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(14, "\r\n            ");
-                __Blazor.WeatherApp.Client.Pages.Developer.Form.TypeInference.CreateValidationMessage_0(__builder2, 15, 16, 
+                __builder2.AddMarkupContent(17, "\r\n            ");
+                __Blazor.WeatherApp.Client.Pages.Developer.Form.TypeInference.CreateValidationMessage_0(__builder2, 18, 19, 
 #nullable restore
 #line 7 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\Form.razor"
                                       () => dev.FirstName
@@ -134,16 +137,21 @@ using WeatherApp.Shared.Models;
 #line hidden
 #nullable disable
                 );
+                __builder2.AddMarkupContent(20, "\r\n        ");
                 __builder2.CloseElement();
+                __builder2.AddMarkupContent(21, "\r\n    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(17, "\r\n    ");
-                __builder2.OpenElement(18, "div");
-                __builder2.AddAttribute(19, "class", "form-group ");
-                __builder2.OpenElement(20, "div");
-                __builder2.AddMarkupContent(21, "<label>Last Name :</label>\r\n            ");
-                __builder2.OpenElement(22, "div");
-                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(23);
-                __builder2.AddAttribute(24, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
+                __builder2.AddMarkupContent(22, "\r\n    ");
+                __builder2.OpenElement(23, "div");
+                __builder2.AddAttribute(24, "class", "form-group ");
+                __builder2.AddMarkupContent(25, "\r\n        ");
+                __builder2.OpenElement(26, "div");
+                __builder2.AddMarkupContent(27, "\r\n            ");
+                __builder2.AddMarkupContent(28, "<label>Last Name :</label>\r\n            ");
+                __builder2.OpenElement(29, "div");
+                __builder2.AddMarkupContent(30, "\r\n                ");
+                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(31);
+                __builder2.AddAttribute(32, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
 #nullable restore
 #line 14 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\Form.razor"
                                          dev.LastName
@@ -152,11 +160,11 @@ using WeatherApp.Shared.Models;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(25, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => dev.LastName = __value, dev.LastName))));
-                __builder2.AddAttribute(26, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => dev.LastName));
+                __builder2.AddAttribute(33, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => dev.LastName = __value, dev.LastName))));
+                __builder2.AddAttribute(34, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => dev.LastName));
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(27, "\r\n                ");
-                __Blazor.WeatherApp.Client.Pages.Developer.Form.TypeInference.CreateValidationMessage_1(__builder2, 28, 29, 
+                __builder2.AddMarkupContent(35, "\r\n                ");
+                __Blazor.WeatherApp.Client.Pages.Developer.Form.TypeInference.CreateValidationMessage_1(__builder2, 36, 37, 
 #nullable restore
 #line 15 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\Form.razor"
                                           () => dev.LastName
@@ -165,17 +173,23 @@ using WeatherApp.Shared.Models;
 #line hidden
 #nullable disable
                 );
+                __builder2.AddMarkupContent(38, "\r\n            ");
                 __builder2.CloseElement();
+                __builder2.AddMarkupContent(39, "\r\n        ");
                 __builder2.CloseElement();
+                __builder2.AddMarkupContent(40, "\r\n    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(30, "\r\n    ");
-                __builder2.OpenElement(31, "div");
-                __builder2.AddAttribute(32, "class", "form-group ");
-                __builder2.OpenElement(33, "div");
-                __builder2.AddMarkupContent(34, "<label>Email :</label>\r\n            ");
-                __builder2.OpenElement(35, "div");
-                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(36);
-                __builder2.AddAttribute(37, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
+                __builder2.AddMarkupContent(41, "\r\n    ");
+                __builder2.OpenElement(42, "div");
+                __builder2.AddAttribute(43, "class", "form-group ");
+                __builder2.AddMarkupContent(44, "\r\n        ");
+                __builder2.OpenElement(45, "div");
+                __builder2.AddMarkupContent(46, "\r\n            ");
+                __builder2.AddMarkupContent(47, "<label>Email :</label>\r\n            ");
+                __builder2.OpenElement(48, "div");
+                __builder2.AddMarkupContent(49, "\r\n                ");
+                __builder2.OpenComponent<Microsoft.AspNetCore.Components.Forms.InputText>(50);
+                __builder2.AddAttribute(51, "Value", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.String>(
 #nullable restore
 #line 23 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\Form.razor"
                                          dev.Email
@@ -184,11 +198,11 @@ using WeatherApp.Shared.Models;
 #line hidden
 #nullable disable
                 ));
-                __builder2.AddAttribute(38, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => dev.Email = __value, dev.Email))));
-                __builder2.AddAttribute(39, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => dev.Email));
+                __builder2.AddAttribute(52, "ValueChanged", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.EventCallback<System.String>>(Microsoft.AspNetCore.Components.EventCallback.Factory.Create<System.String>(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => dev.Email = __value, dev.Email))));
+                __builder2.AddAttribute(53, "ValueExpression", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Linq.Expressions.Expression<System.Func<System.String>>>(() => dev.Email));
                 __builder2.CloseComponent();
-                __builder2.AddMarkupContent(40, "\r\n                ");
-                __Blazor.WeatherApp.Client.Pages.Developer.Form.TypeInference.CreateValidationMessage_2(__builder2, 41, 42, 
+                __builder2.AddMarkupContent(54, "\r\n                ");
+                __Blazor.WeatherApp.Client.Pages.Developer.Form.TypeInference.CreateValidationMessage_2(__builder2, 55, 56, 
 #nullable restore
 #line 24 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\Form.razor"
                                           () => dev.Email
@@ -197,16 +211,22 @@ using WeatherApp.Shared.Models;
 #line hidden
 #nullable disable
                 );
+                __builder2.AddMarkupContent(57, "\r\n            ");
                 __builder2.CloseElement();
+                __builder2.AddMarkupContent(58, "\r\n        ");
                 __builder2.CloseElement();
+                __builder2.AddMarkupContent(59, "\r\n    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(43, "\r\n    ");
-                __builder2.OpenElement(44, "div");
-                __builder2.AddAttribute(45, "class", "form-group ");
-                __builder2.OpenElement(46, "div");
-                __builder2.AddMarkupContent(47, "<label>Experience :</label>\r\n            ");
-                __builder2.OpenElement(48, "div");
-                __Blazor.WeatherApp.Client.Pages.Developer.Form.TypeInference.CreateInputNumber_3(__builder2, 49, 50, 
+                __builder2.AddMarkupContent(60, "\r\n    ");
+                __builder2.OpenElement(61, "div");
+                __builder2.AddAttribute(62, "class", "form-group ");
+                __builder2.AddMarkupContent(63, "\r\n        ");
+                __builder2.OpenElement(64, "div");
+                __builder2.AddMarkupContent(65, "\r\n            ");
+                __builder2.AddMarkupContent(66, "<label>Experience :</label>\r\n            ");
+                __builder2.OpenElement(67, "div");
+                __builder2.AddMarkupContent(68, "\r\n                ");
+                __Blazor.WeatherApp.Client.Pages.Developer.Form.TypeInference.CreateInputNumber_3(__builder2, 69, 70, 
 #nullable restore
 #line 32 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\Form.razor"
                                            dev.Experience
@@ -214,9 +234,9 @@ using WeatherApp.Shared.Models;
 #line default
 #line hidden
 #nullable disable
-                , 51, Microsoft.AspNetCore.Components.EventCallback.Factory.Create(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => dev.Experience = __value, dev.Experience)), 52, () => dev.Experience);
-                __builder2.AddMarkupContent(53, "\r\n                ");
-                __Blazor.WeatherApp.Client.Pages.Developer.Form.TypeInference.CreateValidationMessage_4(__builder2, 54, 55, 
+                , 71, Microsoft.AspNetCore.Components.EventCallback.Factory.Create(this, Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.CreateInferredEventCallback(this, __value => dev.Experience = __value, dev.Experience)), 72, () => dev.Experience);
+                __builder2.AddMarkupContent(73, "\r\n                ");
+                __Blazor.WeatherApp.Client.Pages.Developer.Form.TypeInference.CreateValidationMessage_4(__builder2, 74, 75, 
 #nullable restore
 #line 33 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\Form.razor"
                                           () => dev.Experience
@@ -225,14 +245,18 @@ using WeatherApp.Shared.Models;
 #line hidden
 #nullable disable
                 );
+                __builder2.AddMarkupContent(76, "\r\n            ");
                 __builder2.CloseElement();
+                __builder2.AddMarkupContent(77, "\r\n        ");
                 __builder2.CloseElement();
+                __builder2.AddMarkupContent(78, "\r\n    ");
                 __builder2.CloseElement();
-                __builder2.AddMarkupContent(56, "\r\n\r\n    ");
-                __builder2.OpenElement(57, "button");
-                __builder2.AddAttribute(58, "type", "submit");
-                __builder2.AddAttribute(59, "class", "btn btn-success");
-                __builder2.AddContent(60, 
+                __builder2.AddMarkupContent(79, "\r\n\r\n    ");
+                __builder2.OpenElement(80, "button");
+                __builder2.AddAttribute(81, "type", "submit");
+                __builder2.AddAttribute(82, "class", "btn btn-success");
+                __builder2.AddMarkupContent(83, "\r\n        ");
+                __builder2.AddContent(84, 
 #nullable restore
 #line 39 "C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Client\Pages\Developer\Form.razor"
          ButtonText
@@ -241,7 +265,9 @@ using WeatherApp.Shared.Models;
 #line hidden
 #nullable disable
                 );
+                __builder2.AddMarkupContent(85, "\r\n    ");
                 __builder2.CloseElement();
+                __builder2.AddMarkupContent(86, "\r\n\r\n");
             }
             ));
             __builder.CloseComponent();
