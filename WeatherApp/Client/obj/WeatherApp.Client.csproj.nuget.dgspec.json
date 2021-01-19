@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj": {}
+    "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj": {
+    "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj",
         "projectName": "WeatherApp.Client",
-        "projectPath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj",
-        "packagesPath": "C:\\Users\\bayev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Client\\obj\\",
+        "projectPath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj",
+        "packagesPath": "C:\\Users\\Azama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bayev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Azama\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj": {
-                "projectPath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj"
+              "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj"
               }
             }
           }
@@ -82,17 +82,17 @@
         }
       }
     },
-    "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj": {
+    "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj",
         "projectName": "WeatherApp.Shared",
-        "projectPath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj",
-        "packagesPath": "C:\\Users\\bayev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj",
+        "packagesPath": "C:\\Users\\Azama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bayev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Azama\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -13,5 +13,6 @@ namespace WeatherApp.Server.Data
         {
         }
         public DbSet<Developer> Developers { get; set; }
+        public DbSet<WeatherData> WeatherData { get; set; }
     }
 }

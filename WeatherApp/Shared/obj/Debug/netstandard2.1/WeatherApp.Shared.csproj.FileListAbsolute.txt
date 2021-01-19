@@ -7,3 +7,12 @@ C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Shared\obj\Debug\netstan
 C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Shared\obj\Debug\netstandard2.1\WeatherApp.Shared.csproj.CoreCompileInputs.cache
 C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Shared\obj\Debug\netstandard2.1\WeatherApp.Shared.dll
 C:\Users\bayev\Desktop\dev\dotnet\WeatherApp\WeatherApp\Shared\obj\Debug\netstandard2.1\WeatherApp.Shared.pdb
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Shared\bin\Debug\netstandard2.1\WeatherApp.Shared.deps.json
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Shared\bin\Debug\netstandard2.1\WeatherApp.Shared.dll
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Shared\bin\Debug\netstandard2.1\WeatherApp.Shared.pdb
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Shared\obj\Debug\netstandard2.1\WeatherApp.Shared.csprojAssemblyReference.cache
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Shared\obj\Debug\netstandard2.1\WeatherApp.Shared.AssemblyInfoInputs.cache
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Shared\obj\Debug\netstandard2.1\WeatherApp.Shared.AssemblyInfo.cs
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Shared\obj\Debug\netstandard2.1\WeatherApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Shared\obj\Debug\netstandard2.1\WeatherApp.Shared.dll
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Shared\obj\Debug\netstandard2.1\WeatherApp.Shared.pdb

@@ -6563,19 +6563,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bayev\\.nuget\\packages\\": {}
+    "C:\\Users\\Azama\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Server\\WeatherApp.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Server\\WeatherApp.Server.csproj",
       "projectName": "WeatherApp.Server",
-      "projectPath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Server\\WeatherApp.Server.csproj",
-      "packagesPath": "C:\\Users\\bayev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Server\\obj\\",
+      "projectPath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Server\\WeatherApp.Server.csproj",
+      "packagesPath": "C:\\Users\\Azama\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bayev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Azama\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6589,11 +6589,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj": {
-              "projectPath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj"
+            "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj": {
+              "projectPath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Client\\WeatherApp.Client.csproj"
             },
-            "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj": {
-              "projectPath": "C:\\Users\\bayev\\Desktop\\dev\\dotnet\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj"
+            "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj": {
+              "projectPath": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Shared\\WeatherApp.Shared.csproj"
             }
           }
         }
