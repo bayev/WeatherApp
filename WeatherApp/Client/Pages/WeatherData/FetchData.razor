@@ -9,11 +9,11 @@
 </div>
 <br>
 
-@if (developers == null)
+@if (weatherData == null)
 {
     <text>Loading...</text>
 }
-else if (developers.Length == 0)
+else if (weatherData.Length == 0)
 {
     <text>No Records Found.</text>
 }
@@ -31,17 +31,17 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (Developer dev in developers)
+            @foreach (WeatherData wData in weatherData)
             {
                 <tr>
-                    <td>@dev.Id</td>
-                    <td>@dev.FirstName</td>
-                    <td>@dev.LastName</td>
-                    <td>@dev.Email</td>
-                    <td>@dev.Experience</td>
+                    <td>@wData.Id</td>
+                    <td>@wData.Date</td>
+                    <td>@wData.Location</td>
+                    <td>@wData.Temp</td>
+                    <td>@wData.Humid</td>
                     <td>
-                        <a class="btn btn-success" href="developer/edit/@dev.Id">Edit</a>
-                        <button class="btn btn-danger" @onclick="@(() => Delete(dev.Id))">Delete</button>
+                        <a class="btn btn-success" href="developer/edit/@wData.Id">Edit</a>
+                      
                     </td>
                 </tr>
             }
@@ -50,19 +50,11 @@ else
     </table>
 }
 @code {
-    Developer[] developers { get; set; }
+    WeatherData[] weatherData { get; set; }
     protected override async Task OnInitializedAsync()
     {
-        developers = await client.GetFromJsonAsync<Developer[]>("api/developer");
+        weatherData = await client.GetFromJsonAsync<WeatherData[]>("api/wData");
     }
 
-    async Task Delete(int developerId)
-    {
-        var dev = developers.First(x => x.Id == developerId);
-        if (await js.InvokeAsync<bool>("confirm", $"Do you want to delete {dev.FirstName}'s ({dev.Id}) Record?"))
-        {
-            await client.DeleteAsync($"api/developer/{developerId}");
-            await OnInitializedAsync();
-        }
-    }
+    
 }

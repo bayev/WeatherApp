@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WeatherApp.Server.Data;
 
 namespace WeatherApp.Server
 {
@@ -13,7 +14,9 @@ namespace WeatherApp.Server
     {
         public static void Main(string[] args)
         {
+            //InitData.ReadCSV();
             CreateHostBuilder(args).Build().Run();
+            
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

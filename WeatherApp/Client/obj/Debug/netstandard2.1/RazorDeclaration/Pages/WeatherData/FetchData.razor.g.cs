@@ -93,21 +93,13 @@ using WeatherApp.Shared.Models;
 #nullable restore
 #line 52 "C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Client\Pages\WeatherData\FetchData.razor"
        
-    Developer[] developers { get; set; }
+    WeatherData[] weatherData { get; set; }
     protected override async Task OnInitializedAsync()
     {
-        developers = await client.GetFromJsonAsync<Developer[]>("api/developer");
+        weatherData = await client.GetFromJsonAsync<WeatherData[]>("api/wData");
     }
 
-    async Task Delete(int developerId)
-    {
-        var dev = developers.First(x => x.Id == developerId);
-        if (await js.InvokeAsync<bool>("confirm", $"Do you want to delete {dev.FirstName}'s ({dev.Id}) Record?"))
-        {
-            await client.DeleteAsync($"api/developer/{developerId}");
-            await OnInitializedAsync();
-        }
-    }
+    
 
 #line default
 #line hidden
