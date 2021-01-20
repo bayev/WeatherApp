@@ -96,7 +96,7 @@ using WeatherApp.Shared.Models;
     WeatherData[] weatherData { get; set; }
     protected override async Task OnInitializedAsync()
     {
-        weatherData = await client.GetFromJsonAsync<WeatherData[]>("api/wData");
+        weatherData = await client.GetFromJsonAsync<WeatherData[]>("api/weatherdata");
     }
 
     

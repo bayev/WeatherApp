@@ -757,6 +757,6 @@ C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Client\obj\
 C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Client\obj\Debug\netstandard2.1\integrity\c2Y9IbluE9vL9qEql7E1RziccisLZW-L4mCkdGyI3b0=.hash
 C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\WeatherData\FetchData.razor.g.cs
 C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Client\obj\Debug\netstandard2.1\Razor\Pages\WeatherData\FetchData.razor.g.cs
-C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Client\obj\Debug\netstandard2.1\integrity\3oV0_P8-w9hJYKOR7rNUjug4X_D5TFmFE83s7nbD88g=.hash
-C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Client\obj\Debug\netstandard2.1\integrity\WKWLqfrk2ExmD9ptdUOzNtTbPeOfa4TXksWLWE9oS-Q=.hash
-C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Client\obj\Debug\netstandard2.1\integrity\eWvBBpIx7d9MhuAU-OJkcgYfECor898kjvcNMn0Y79M=.hash
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Client\obj\Debug\netstandard2.1\integrity\3EJBFryOWqqxU8IG_lCSLRAYrG3j0h8TnvQLT4rnjCI=.hash
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Client\obj\Debug\netstandard2.1\integrity\6J_Ned9sGt2HFoRYEL7pLjRB2HvSN352S3wWLYfUui8=.hash
+C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Client\obj\Debug\netstandard2.1\integrity\VezFez5EUrXgckPOC6_Gqw5BZifPQkwrSr8wXxhREds=.hash
