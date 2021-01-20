@@ -17,11 +17,19 @@ namespace WeatherApp.Server.Controllers
             public WeatherDataController(ApplicationDBContext context)
             {
                 this._context = context;
+                
             }
+
+        public IQueryable<Shared.Models.WeatherData> FetchTop3()
+        {
+            var hWeather = _context.WeatherData.AsQueryable().OrderByDescending(data => data).Take(3);
+            return hWeather;
+        }
 
         [HttpGet]
         public async Task<IActionResult> Get()
         {
+            FetchTop3();
             var wData = await _context.WeatherData.ToListAsync();
             return Ok(wData);
         }

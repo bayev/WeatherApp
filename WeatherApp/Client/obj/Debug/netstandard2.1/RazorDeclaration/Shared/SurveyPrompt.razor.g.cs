@@ -90,7 +90,7 @@ using WeatherApp.Shared.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Client\Shared\SurveyPrompt.razor"
+#line 8 "C:\Users\Azama\Desktop\code\dotnet\blazor-apps\WeatherApp\WeatherApp\Client\Shared\SurveyPrompt.razor"
        
     // Demonstrates how a parent component can supply parameters
     [Parameter]

@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\3EJBFryOWqqxU8IG_lCSLRAYrG3j0h8TnvQLT4rnjCI=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\pQFqABvJFbuRC-Xii8wtgDF4tYAKJGkAy8pvZDsN_y4=.hash",
       "Source": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\WeatherApp.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/WeatherApp.Client.dll.br"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6J_Ned9sGt2HFoRYEL7pLjRB2HvSN352S3wWLYfUui8=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\QGul1uxMWtofQJsJVOelQolyTpEU_T1a7ksrJwpEluA=.hash",
       "Source": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\WeatherApp.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/WeatherApp.Client.pdb.br"
     },
@@ -296,7 +296,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\VezFez5EUrXgckPOC6_Gqw5BZifPQkwrSr8wXxhREds=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\KHHjKssFPdiqgDV7siYzGzgAIPoLP5G6MQHvF41r5zM=.hash",
       "Source": "C:\\Users\\Azama\\Desktop\\code\\dotnet\\blazor-apps\\WeatherApp\\WeatherApp\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

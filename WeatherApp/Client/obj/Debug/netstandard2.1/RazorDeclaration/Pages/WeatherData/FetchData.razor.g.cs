@@ -98,8 +98,9 @@ using WeatherApp.Shared.Models;
     {
         weatherData = await client.GetFromJsonAsync<WeatherData[]>("api/weatherdata");
     }
-
     
+
+
 
 #line default
 #line hidden
